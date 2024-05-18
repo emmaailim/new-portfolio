@@ -12,7 +12,7 @@ const Footer = () => {
           <Col className="text-center">
             <p className="mb-2">© 2024 Emma Lim. All Rights Reserved.</p>
             <div className="social-icons">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/emmaailim" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faGithub} size="2x" className="me-3" />
               </a>
               <a href="https://www.linkedin.com/in/emma-lim-892891252/" target="_blank" rel="noopener noreferrer">
