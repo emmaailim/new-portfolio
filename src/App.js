@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import MyNavbar from './navbar-folder/navbar'; // Adjust the path as necessary
+import Introduction from './intro-folder/introduction';
+import Skills from './skills-folder/skills';
+import Projects from './projects-folder/projects';
+import Contact from './contact-folder/contact';
+import Footer from './footer-folder/footer'; // Adjust the path as necessary
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MyNavbar />
+      <Container fluid className="pt-5">
+        <Introduction />
+        <Skills />
+        <Projects />
+        <Contact />
+      </Container>
+      <Footer />
     </div>
   );
 }

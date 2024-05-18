@@ -1,0 +1,40 @@
+/* intro.css */
+
+/* Apply cute font family to text */
+.cute-font {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff69b4; /* Light pink color */
+  }
+  
+  /* Make the image larger */
+  .intro-image {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px;
+    border: 4px solid #ff69b4; /* Light pink border */
+  }
+  
+  /* Additional styling for the container and text */
+  .intro-class h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .intro-class p {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+  
+  /* Centering content using Flexbox */
+  .intro-class {
+    background-color: #fff0f5; /* Light pink background */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

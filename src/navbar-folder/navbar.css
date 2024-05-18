@@ -1,0 +1,58 @@
+/* src/components/Navbar.css */
+
+/* Initial transparent background */
+.navbar-custom {
+    background-color: transparent;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease, color 0.3s ease;
+  }
+
+  .nav-icon-custom {
+    color: #ff69b4;
+  }
+  
+  /* Background color and blur effect on scroll */
+  .navbar-custom.scrolled {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark with opacity */
+    backdrop-filter: blur(10px); /* Blur effect */
+  }
+  
+  /* Larger font size for navbar */
+  .navbar-custom .nav-link {
+    font-size: 1.25rem; /* Increase font size */
+    position: relative;
+    display: inline-block;
+    padding-right: 18px !important;
+    color: #000000; /* Initial color at the top */
+    transition: color 0.3s ease;
+  }
+  
+  /* Underline hover effect */
+  .navbar-custom .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    left: 0;
+    background: #ff93c9;
+    transition: width 0.4s ease;
+  }
+  
+  .navbar-custom .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  /* Change link color on scroll */
+  .navbar-custom.scrolled .nav-link {
+    color: white;
+  }
+
+  @media (max-width: 992px) {
+    .navbar-custom {
+      background-color: white;
+      transition: background-color 0.3s ease, backdrop-filter 0.3s ease, color 0.3s ease;
+    }  
+  }
+  

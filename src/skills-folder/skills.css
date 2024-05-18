@@ -1,0 +1,38 @@
+/* skills.css */
+
+/* Apply cute font family to text */
+.cute-font {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #ff69b4; /* Light pink color */
+}
+
+.font-work h5 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+font-weight: bold; 
+color: #ff359a; /* Light pink color */
+
+}
+
+.new-fix {
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff21a3; /* Light pink color */
+
+
+}
+
+/* Change font size for ListGroup items */
+.font-change {
+  font-size: 1.25rem; /* Adjust size as needed */
+}
+
+/* Additional styling for ListGroup items in work experience */
+.font-work {
+  font-size: 1rem; /* Adjust size as needed */
+}
+
+/* Add margin spacing above and below both columns */
+.skill-column {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

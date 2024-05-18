@@ -1,0 +1,22 @@
+/* projects.css */
+
+/* Apply cute font family to text */
+.cute-font {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff69b4; /* Light pink color */
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+  
+  /* Scale the card on hover */
+  .project-card {
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
