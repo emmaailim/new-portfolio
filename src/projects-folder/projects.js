@@ -10,7 +10,7 @@ const projects = [
     title: 'My Portfolio',
     description: 'This project showcases the development of a modern web application, demonstrating my skills in front-end. I choose to use Bootstrap and CSS for styling, as well as Framer Motion for animations. It was my first experience using React, and I successfully built an interactive and dynamic user interface.',
     technologies: 'Technologies Used: React, Bootstrap, Node.js, JSX',
-    link: '#',
+    link: 'https://github.com/emmaailim/new-portfolio',
     image: img1
   },
   {
